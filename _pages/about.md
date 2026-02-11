@@ -18,6 +18,7 @@ redirect_from:
 
 ## Presentations/Posters/Talks
 
+* *Varieties over Finite Fields* (January 2026, Lecture for Math 150: Weil Conjectures) [notes](files/m150w26_Lecture_1_2__Varieties_over_Finite_Fields.pdf)
 * *Noether–Lefschetz General Complete Intersection K3s* (Poster, AGNES Fall 2025 @ UMass Amherst) [poster](files/agnes_poster_2025.pdf)
 * *Honda-Tate Theorem for Abelian Varieties* (November 2025, Lecture for Math 150: Abelian Varieties)
 * *Sextic K3 Surfaces with Geometric Picard Number 1* (Poster, Dartmouth Math Undergraduate Poster Session, June 2025) [poster](files/undegrad-poster.pdf)
