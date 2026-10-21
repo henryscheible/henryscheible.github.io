@@ -1,5 +1,7 @@
 # Henry Scheible
 
+![Me](headshot.jpg)
+
 I am a Ph.D. student at the [University of Illinois Chicago](https://mscs.uic.edu). I am broadly interested in algebraic geometry.
 
 You can contact me at [hjsche@uic.edu](mailto:hjsche@uic.edu).
