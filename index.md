@@ -6,7 +6,7 @@ You can contact me at [hjsche@uic.edu](mailto:hjsche@uic.edu).
 
 ## Publications
 
-4. *Noether--Lefschetz general complete intersection K3 surfaces over Q* (with Asher Auel), preprint, in preparation
+4. *Noether--Lefschetz general complete intersection K3 surfaces over Q* (with Asher Auel), [preprint](https://arxiv.org/abs/2603.03253).
 3. *Datamodel Distance: A New Metric for Privacy*, AAAI 2024 FS ATRACC (with Nathaniel Bastian and Paul Lintilhac), [https://doi.org/10.1609/aaaiss.v4i1.31773](https://doi.org/10.1609/aaaiss.v4i1.31773)
 2. *QUARL: Quantifying Adversarial Risks in Language Models*, AAAI 2024 FS ATRACC (with Joshua Ackerman, George Cybenko, Paul Lintilhac, and Nathaniel D. Bastian) [https://doi.org/10.1609/aaaiss.v4i1.31777](https://doi.org/10.1609/aaaiss.v4i1.31777)
 1. *Deciphering stereotypes in pre-trained language models*, EMNLP 2023 (with Weicheng Ma, Brian Wang, Goutham Veeramachaneni, Pratim Chowdhary, Alan Sun, Andrew Koulogeorge, Lili Wang, Diyi Yang, and Soroush Vosoughi) [https://aclanthology.org/2023.emnlp-main.697/](https://aclanthology.org/2023.emnlp-main.697/)
