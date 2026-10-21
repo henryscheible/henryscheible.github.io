@@ -1,3 +1,9 @@
+# Henry Scheible
+
+I am a Ph.D. student at the [University of Illinois Chicago](https://mscs.uic.edu). I am broadly interested in algebraic geometry.
+
+You can contact me at [hjsche@uic.edu](mailto:hjsche@uic.edu).
+
 ## Publications
 
 4. *Noether--Lefschetz general complete intersection K3 surfaces over Q* (with Asher Auel), preprint, in preparation
