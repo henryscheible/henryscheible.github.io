@@ -1,6 +1,6 @@
 # Henry Scheible
 
-![Me](headshot.jpg)
+<img src="headshot.jpg" width="200" />
 
 I am a Ph.D. student at the [University of Illinois Chicago](https://mscs.uic.edu). I am broadly interested in algebraic geometry.
 
