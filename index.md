@@ -25,4 +25,4 @@ You can contact me at [hjsche@uic.edu](mailto:hjsche@uic.edu).
 * *Randomization is Linear in Space* (November 2025, Final Presentation for CS 40: Computational Complexity) [slides](files/CS_40_Final_Presentation__Nisan_and_Zuckerman_Derandomization.pdf)
 * *Polar Codes* (February 2025, Final Presentation for CS 37: Information Theory, joint with Warren Sheppard) [slides](files/Information_Theory_Final_Project_slides.pdf) [notes](files/Information_Theory_Final_Project_notes.pdf)
 
-## [CV](files/cv.pdf)
+## [CV](cv.pdf)

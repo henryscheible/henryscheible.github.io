@@ -1,0 +1,136 @@
+% !TeX program = pdflatex
+% Build with pdfLaTeX. All entries flow across pages as the CV grows.
+\documentclass[letterpaper,11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={Henry Scheible — Curriculum Vitae},pdfauthor={Henry Scheible}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Entry templates (examples in the document body):
+%   \institution{Organization}{Location}
+%   \role{Position}{Dates} followed by a description paragraph
+%   \publication{\doititle{DOI}{Title}}{Venue}{Authors}
+%   \publication{Title}{\arxiv{Identifier}}{Authors}
+%   \award{Name}{Institution and date} (use \award[] for a space without a comma)
+%   \begin{talks} \talk{Title}{Event and date} \end{talks}
+%
+% A blank line starts a paragraph. Use \entrygap between groups of entries.
+\newcommand{\entrygap}{\par\addvspace{\baselineskip}}
+\newcommand{\cvsection}[1]{\entrygap\textbf{\MakeUppercase{#1}}\par\nobreak\entrygap}
+\newcommand{\cvsubhead}[1]{\textbf{#1}\par\nobreak}
+\newcommand{\institution}[2]{\textbf{#1}, #2\par\nobreak}
+\newcommand{\datedline}[2]{#1\hfill\mbox{#2}\par\nobreak}
+\newcommand{\role}[2]{\datedline{\textit{#1}}{#2}}
+\newcommand{\researchrole}[2]{\datedline{\textbf{#1}}{#2}}
+\newcommand{\award}[3][,]{\underline{#2}#1\space #3\par}
+\newcommand{\arxiv}[1]{\href{https://arxiv.org/abs/#1}{arXiv:#1}}
+\newcommand{\doititle}[2]{\href{https://doi.org/#1}{#2}}
+\newcommand{\publication}[3]{\textit{#1}, #2\par\nobreak #3\par}
+\newenvironment{talks}{%
+  \begin{list}{\textbullet}{%
+    \setlength{\leftmargin}{36bp}\setlength{\labelsep}{10bp}%
+    \setlength{\topsep}{0pt}\setlength{\partopsep}{0pt}%
+    \setlength{\parsep}{0pt}\setlength{\itemsep}{0pt}}%
+}{\end{list}}
+\newcommand{\talk}[2]{\item \textit{#1} (#2)}
+\newcommand{\contactlink}[2]{\href{#1}{\underline{#2}}}
+
+\begin{document}
+\fontsize{10.95pt}{14.55bp}\selectfont
+\raggedright
+{\centering
+  \textbf{Henry Scheible}\par
+  612-850-6879 \textbar{} \contactlink{mailto:henry.scheible@gmail.com}{henry.scheible@gmail.com} \textbar{}
+  \contactlink{http://henryscheible.github.io}{henryscheible.github.io}\par
+}
+
+\cvsection{Education}
+\institution{University of Illinois Chicago}{Chicago, IL}
+\datedline{Ph.D. in Mathematics}{Expected 5/2031}
+\entrygap
+Relevant Coursework: Algebraic Geometry I, Differentiable Manifolds, Commutative and Homological Algebra
+
+\entrygap
+
+
+\institution{Dartmouth College}{Hanover, NH}
+\datedline{Bachelor of Arts, Mathematics, GPA: 3.99, Math GPA: 4.00}{Expected 6/2026}
+
+\entrygap
+Relevant Coursework: Differential Topology, Algebraic Topology, Commutative Algebra Reading
+Course, Algebraic Geometry/Scheme Theory Reading Course, Abstract Algebra: Field and Galois
+Theory, Linear and Multilinear Algebra, Real Analysis, Topics in Probability: Classical and
+Combinatorial Game Theory, Algorithms, Randomized Algorithms, Deep Learning: Generalization and
+Robustness, Statistical Learning Theory Reading Course, Information Theory in CS, Problem
+Solving via Object Oriented Programming, Hodge Theory, Graduate Seminar on Abelian Varieties,
+Computational Complexity, Functional Analysis\par
+
+\entrygap
+\institution{University of Minnesota, Twin Cities}{Minneapolis, MN}
+\datedline{Dual Enrollment as a High School Student, GPA: 3.96}{Fall 2021-Spring 2022}
+
+\entrygap
+Relevant Coursework: Formal Languages \& Automata Theory, Single Variable Calculus,
+Multivariable Calculus, Linear Algebra, Differential Equations, Honors Fundamental Structures
+of Algebra I \& II (full year algebra sequence covering most of Artin), Honors Introduction to
+Topology, Introduction to Algorithms, Data Structures, and Program Development, Discrete
+Structures of Computer Science, Advanced Programming Principles\par
+
+\cvsection{Honors and Grants}
+\award{John J. Byrne Jr. Prize in Mathematics}{Dartmouth College, 2026: \textit{a \$35,000 fellowship designed to cover the first year of graduate tuition that recognizes the top Dartmouth graduating mathematics major interested in continuing mathematics at the graduate level}}
+\award{Phi Beta Kappa}{Dartmouth College Chapter (Fall 2025)}
+\award{Neukom Institute for Computational Science Scholar Program}{Dartmouth College (Winter 2026)}
+\award[]{Best Pure Mathematics Research Project}{at Dartmouth Mathematics Undergraduate Poster Session (Spring 2025)}
+\award{James O. Freedman Presidential Scholar}{Dartmouth College (Summer 2024, Winter 2025)}
+\award[]{Undergraduate Research Assistantships at Dartmouth}{(URAD) Grant (Spring 2023, Fall 2023, Spring 2024, Spring 2025)}
+\award{Rufus Choate Scholar}{Dartmouth College (2022-2023, 2024-2025)}
+
+\cvsection{Publications}
+\cvsubhead{Preprints}
+\publication{Noether–Lefschetz general complete intersection K3 surfaces over the rationals}{\arxiv{2603.03253}}{Asher Auel, Henry Scheible}
+
+\entrygap
+\cvsubhead{Conference Proceedings}
+\publication{\doititle{10.18653/v1/2023.emnlp-main.697}{Deciphering stereotypes in pre-trained language models}}{EMNLP 2023}{Weicheng Ma, Henry Scheible, Brian Wang, Goutham Veeramachaneni, Pratim Chowdhary, Alan Sun, Andrew Koulogeorge, Lili Wang, Diyi Yang, Soroush Vosoughi}
+
+\entrygap
+\cvsubhead{Workshop Papers}
+\publication{\doititle{10.1609/aaaiss.v4i1.31773}{Datamodel Distance: A New Metric for Privacy}}{AAAI 2024 FS ATRACC}{Paul Lintilhac, Henry Scheible, Nathaniel D. Bastian}
+
+\entrygap
+\publication{\doititle{10.1609/aaaiss.v4i1.31777}{QUARL: Quantifying Adversarial Risks in Language Models}}{AAAI 2024 FS ATRACC}{Joshua Ackerman, George Cybenko, Paul Lintilhac, Henry Scheible, Nathaniel D. Bastian}
+
+\cvsection{Presentations/Posters/Talks}
+\begin{talks}
+\talk{Noether–Lefschetz General Complete Intersection K3s}{Poster, AGNES Fall 2025 @ UMass Amherst}
+\talk{Honda-Tate Theorem for Abelian Varieties}{November 2025, Lecture for Math 150: Abelian Varieties}
+\talk{Sextic K3 Surfaces with Geometric Picard Number 1}{Poster, Dartmouth Math Undergraduate Poster Session, June 2025}
+\talk{Homotopy Type of Projective Complex Manifolds}{June 2025, Final Presentation for Math 121: Hodge Theory}
+\talk{Randomization is Linear in Space}{November 2025, Final Presentation for CS 40: Computational Complexity}
+\talk{Polar Codes}{February 2025, Final Presentation for CS 37: Information Theory, joint with Warren Sheppard}
+\end{talks}
+
+\cvsection{Research Experience}
+\researchrole{Senior Thesis, Dartmouth Mathematics Department}{Spring 2025-Spring 2026}
+\textit{Advisor: Asher Auel}\par
+Working on the following problem: For which even degrees does there exist a Noether–Lefschetz
+general polarized K3 surface defined over the rationals? The preprint listed
+above gives the answer for degrees 6 and 8, higher degrees are still in progress.\par
+
+\entrygap
+Accepted to \textbf{NSF-REU Site: Algebra, Combinatorics, and Statistics at Texas State University} for Summer 2025 but declined to attend due to uncertainty over NSF grant providing financial support\par
+
+\entrygap
+\researchrole{Undergraduate Researcher, Dartmouth Computer Science Department}{Fall 2022-Winter 2025}
+\textit{Advisors: Soroush Vosoughi, Souyoung Jin, George Cybenko}\par
+Used bias datasets such as Stereoset to assess bias in large transformer models such as BERT.\par
+Performed Shapley Probing on transformer models to isolate attention heads responsible for
+bias.\par
+Analyzed changes in CLIP due to deletion of various parts of an input image.\par
+Built an adapter from a novel audiovisual model to LLaMA to query video data.\par
+Helped prove a novel bound on the success rate of a SOTA Membership Inference Attack.\par
+
+\end{document}
